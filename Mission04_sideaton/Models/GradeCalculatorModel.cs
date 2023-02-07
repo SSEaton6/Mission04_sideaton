@@ -8,6 +8,7 @@ namespace Mission04_sideaton.Models
 {
     public class GradeCalculatorModel
     {
+        // specifies a range for each input to be between 0 and 100
         [Range(0, 100, ErrorMessage = "Assignment Grade must be between 0 and 100")]
         public float Assignments{ get; set; }
 

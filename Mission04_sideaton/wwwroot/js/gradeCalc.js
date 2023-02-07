@@ -6,7 +6,6 @@
     var intex = Number($("#Intex").val());
     var finalexam = Number($("#FinalExam").val());
     var midexam = Number($("#MidExam").val());
-    alert(assignments + "\n" + quizzes + "\n" + gprojects + "\n" + intex + "\n" + finalexam + "\n" + midexam)
     // calculates final percent based on the weights provided in the syllabus
     var finalpercent = (assignments * .5) + (quizzes * .1) + (gprojects * .1) + (intex * .1) + (midexam * .1) + (finalexam * .1);
  
